@@ -12,6 +12,21 @@ int main()
         diceroll[i]=(rand()%6)+1;
         s+=diceroll[i];
     }
+    for(i=0;i<100;i++)
+    {
+        if(diceroll[i]==1)
+        one++;
+        if(diceroll[i]==2)
+        two++;
+        if(diceroll[i]==3)
+        three++;
+        if(diceroll[i]==4)
+        four++;
+        if(diceroll[i]==5)
+        five++;
+        if(diceroll[i]==6)
+        six++;
+    }
    
     // Your code goes here
 
