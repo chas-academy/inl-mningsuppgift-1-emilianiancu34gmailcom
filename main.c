@@ -27,7 +27,9 @@ int main()
         if(diceroll[i]==6)
         six++;
     }
-   
+    printf("%d\n%d\n%d\n%d\n%d\n%d\n%d\n",one,two,three,four,five,six,s);
+    printf("%.1f",s/100.0);
+
     // Your code goes here
 
     return 0;
